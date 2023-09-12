@@ -21,6 +21,9 @@
   - Half Breadboard
   - M-M Jumper Wire
 
+### Circuit Diagram
+<img width="800" alt="pll_pfd" src="https://github.com/Mrnidhi/LiFi-Communication-using-Arduino/blob/main/Circuit%20diagram.png">
+
 ### Description
 - Description of the working of project based on Li-Fi technology using an Arduino Uno, LDR module, LCD display, and a mobile application.
 1. Li-Fi Technology: Li-Fi, or Light Fidelity, is a wireless communication technology that uses visible light to transmit data. In this project using a mobile torch to transmit data through light signals, and an LDR (Light Dependent Resistor) module to receive and interpret these light signals.
@@ -28,9 +31,6 @@
 3. LDR Module: The LDR module consists of an LDR sensor that detects changes in light intensity. It converts the received light signals into electrical signals that can be processed by the Arduino Uno.
 4. LCD Display: The LCD display is used to visually represent the data received through Li-Fi communication can connect the LCD display to the Arduino Uno to show the transmitted messages or any other relevant information.
 5. Mobile Application: we will use a mobile application that utilizes the mobile torch functionality. The application will have a feature to input messages, which will be converted into light signals through the torch. By manipulating the torch's light intensity, it will encode binary data or use other modulation techniques to transmit the messages.
-
-### Circuit Diagram
-<img width="800" alt="pll_pfd" src="https://github.com/Mrnidhi/LiFi-Communication-using-Arduino/blob/main/Circuit%20diagram.png">
 
 ### Working
 The working of our project involves the following steps:
@@ -43,4 +43,9 @@ The working of our project involves the following steps:
 
 By following these steps, Li-FI allows for unidirectional communication from the mobile application to the Arduino Uno . The mobile application encodes messages into light signals, while the Arduino Uno receives and decodes these signals, displaying the messages on the LCD display.
 
+### Future Scope
+- With the advancement of Li-fi technology it will become more portable, talking its rightful places in our phones and laptops.
+- We will also be moving towards a much more secured network, which will be safeguarded from unwanted hackers.
+- Depletion of environment due to increased use of radio frequencies will also decrease, as the Li-fi technology uses the visible light spectrum to transmit data.
+- Multiuser support of Li-fi will ensure that every individual is getting a high speed of internet.
 
