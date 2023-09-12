@@ -30,12 +30,12 @@
 5. Mobile Application: we will use a mobile application that utilizes the mobile torch functionality. The application will have a feature to input messages, which will be converted into light signals through the torch. By manipulating the torch's light intensity, it will encode binary data or use other modulation techniques to transmit the messages.
 
 ### Working
-- The working of our project involves the following steps:
-• Mobile Application: By Using the mobile application to input a message that we want to transmit. The application will convert the message into light signals using the mobile torch.
-• Light Transmission: Point the mobile torch towards the LDR module connected to the Arduino Uno. The varying intensity of the torch's light will correspond to the encoded message.
-• LDR Detection: The LDR module will detect the changes in light intensity caused by the torch and convert them into electrical signals.
-• Arduino Processing: The Arduino Uno will receive the electrical signals from the LDR module and process them using appropriate algorithms to decode the transmitted data.
-• LCD Display: The Arduino Uno will display the decoded message on the connected LCD display, making it visible for users to read.
-- By following these steps, Li-FI allows for unidirectional communication from the mobile application to the Arduino Uno . The mobile application encodes messages into light signals, while the Arduino Uno receives and decodes these signals, displaying the messages on the LCD display.
+The working of our project involves the following steps:
+- Mobile Application: By Using the mobile application to input a message that we want to transmit. The application will convert the message into light signals using the mobile torch.
+- Light Transmission: Point the mobile torch towards the LDR module connected to the Arduino Uno. The varying intensity of the torch's light will correspond to the encoded message.
+- LDR Detection: The LDR module will detect the changes in light intensity caused by the torch and convert them into electrical signals.
+- Arduino Processing: The Arduino Uno will receive the electrical signals from the LDR module and process them using appropriate algorithms to decode the transmitted data.
+- LCD Display: The Arduino Uno will display the decoded message on the connected LCD display, making it visible for users to read.
+By following these steps, Li-FI allows for unidirectional communication from the mobile application to the Arduino Uno . The mobile application encodes messages into light signals, while the Arduino Uno receives and decodes these signals, displaying the messages on the LCD display.
 
 
