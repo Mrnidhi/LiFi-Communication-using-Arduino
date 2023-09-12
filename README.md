@@ -3,11 +3,10 @@
 
   - Theory of Li-Fi Technology
   - Components 
+  - Circuit Diagram
   - Description
-  - Circuit diagram
   - Working
-  - Layout
-  - Post-Layout Simulation
+  - Future Scope
 
 --- 
 ### Theory of Li-Fi Technology 
