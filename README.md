@@ -36,6 +36,8 @@ The working of our project involves the following steps:
 - LDR Detection: The LDR module will detect the changes in light intensity caused by the torch and convert them into electrical signals.
 - Arduino Processing: The Arduino Uno will receive the electrical signals from the LDR module and process them using appropriate algorithms to decode the transmitted data.
 - LCD Display: The Arduino Uno will display the decoded message on the connected LCD display, making it visible for users to read.
+
+
 By following these steps, Li-FI allows for unidirectional communication from the mobile application to the Arduino Uno . The mobile application encodes messages into light signals, while the Arduino Uno receives and decodes these signals, displaying the messages on the LCD display.
 
 
